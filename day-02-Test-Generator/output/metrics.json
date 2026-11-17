@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2026-11-17T22:02:27",
+    "mode": "demo",
+    "generated": 3,
+    "approved": 2,
+    "rejected": 1,
+    "edited": 1,
+    "review_seconds": 58.9,
+    "acceptance_rate": 0.67
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "TC-01",
+    "title": "Login succeeds with valid credentials",
+    "type": "positive",
+    "priority": "high",
+    "preconditions": "A registered, unlocked account exists.",
+    "steps": [
+      "Open the login page",
+      "Enter a valid email",
+      "Enter the correct password",
+      "Click Log in"
+    ],
+    "expected_result": "The user lands on their account page."
+  },
+  {
+    "id": "TC-03",
+    "title": "hello world",
+    "type": "edge",
+    "priority": "high",
+    "preconditions": "A registered account exists with no prior failed attempts.",
+    "steps": [
+      "Attempt login with a wrong password 5 times",
+      "Attempt login with the correct password"
+    ],
+    "expected_result": "The account is locked for 15 minutes and the correct password is rejected."
+  }
+]
