@@ -1,0 +1,7 @@
+As a registered user, I want to log in with my email and password so that I can access my account.
+
+Rules:
+- Email must be in a valid format.
+- Password must be at least 8 characters.
+- After 5 failed attempts the account locks for 15 minutes.
+- On failure, show a generic error message that does not reveal which field was wrong.
